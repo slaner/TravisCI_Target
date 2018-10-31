@@ -1,2 +1,5 @@
 language: c
-install: make get-deps  
+script:
+  - gcc main.c -o main_out
+  - ./main_out
+  
