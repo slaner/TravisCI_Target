@@ -1,5 +1,5 @@
 language: c
 script:
-  - gcc main.c -out main_out
+  - gcc main.c -o main_out
   - ./main_out
   
