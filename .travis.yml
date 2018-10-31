@@ -1,2 +1,5 @@
 language: c
-script: "make && make test"
+script:
+  - gcc main.c -out main_out
+  - ./main_out
+  
